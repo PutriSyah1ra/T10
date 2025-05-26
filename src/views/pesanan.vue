@@ -50,15 +50,19 @@
 </template>
 
 <script>
+import darkImage from '../assets/dark.jpg';
+import milkImage from '../assets/milk.jpg';
+import matchaImage from '../assets/matcha.jpg';
+import hazelnutImage from '../assets/hazelnut.jpg';
 export default {
   name: "Pesanan",
   data() {
     return {
       produk: [
-        { id: 1, nama: "Dark Chocolate 70%", harga: 35000, gambar: 'dark coklat.jpeg' },
-        { id: 2, nama: "Milk Chocolate Caramel", harga: 42000, gambar: 'milk coklat caramel.jpg.jpeg' },
-        { id: 3, nama: "Matcha White Chocolate", harga: 48000, gambar: 'matcha white coklat.jpeg' },
-        { id: 4, nama: "Hazelnut Chocolate", harga: 39000, gambar: 'hazelnut coklat.jpeg' }
+        { id: 1, nama: "Dark Chocolate 70%", harga: 35000, gambar: darkImage },
+        { id: 2, nama: "Milk Chocolate Caramel", harga: 42000, gambar: milkImage },
+        { id: 3, nama: "Matcha White Chocolate", harga: 48000, gambar: matchaImage },
+        { id: 4, nama: "Hazelnut Chocolate", harga: 39000, gambar: hazelnutImage }
       ],
       keranjang: [],
       pesananTerkonfirmasi: false,

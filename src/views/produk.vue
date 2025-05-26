@@ -30,6 +30,10 @@
 </template>
 
 <script>
+import darkImage from '../assets/dark.jpg';
+import milkImage from '../assets/milk.jpg';
+import matchaImage from '../assets/matcha.jpg';
+import hazelnutImage from '../assets/hazelnut.jpg';
 export default {
   name: 'Produk',
   data() {
@@ -40,7 +44,7 @@ export default {
           id: 1,
           nama: 'Dark Chocolate 70%',
           deskripsi: 'Coklat hitam premium dengan rasa pahit khas dan antioksidan tinggi.',
-          gambar: 'dark coklat.jpeg',
+          gambar: darkImage,
           harga: 35000,
           manfaat: [
             'Mengandung antioksidan tinggi',
@@ -52,7 +56,7 @@ export default {
           id: 2,
           nama: 'Milk Chocolate Caramel',
           deskripsi: 'Coklat susu lembut berpadu dengan manisnya karamel lumer.',
-          gambar: 'milk coklat caramel.jpg.jpeg',
+          gambar: milkImage,
           harga: 42000,
           manfaat: [
             'Memberi energi cepat',
@@ -64,7 +68,7 @@ export default {
           id: 3,
           nama: 'Matcha White Chocolate',
           deskripsi: 'Coklat putih dengan rasa matcha khas Jepang yang unik dan nikmat.',
-          gambar: 'matcha white coklat.jpeg',
+          gambar: matchaImage,
           harga: 48000,
           manfaat: [
             'Mengandung antioksidan dari matcha',
@@ -76,7 +80,7 @@ export default {
           id: 4,
           nama: 'Hazelnut Chocolate',
           deskripsi: 'Diperkaya dengan potongan kacang hazelnut renyah di setiap gigitan.',
-          gambar: 'hazelnut coklat.jpeg',
+          gambar: hazelnutImage,
           harga: 39000,
           manfaat: [
             'Mengandung protein dan serat dari kacang',
